@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/maheshbabuy/IdeaProjects/testNG" enabled="true">
+        <classes>
+            <class name="Annotations.annotaions_TC1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="Annotations.annotations_TC2">
+                <methods>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+                <class name="Assertions.Assertions">
+                <methods>
+                    <include name="ASSERTION1"/>
+                    <include name="ASSERTION2"/>
+                </methods>
+            </class>
+            <class name="Assertions.Assertions_practice">
+                <methods>
+                    <include name="browserlaunch"/>
+                    <include name="verify_title"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+            <class name="Dataprovider.dataprovider_practice">
+                <methods>
+                    <include name="logintest"/>
+                </methods>
+            </class>
+            <class name="Dependency_Alwaysrun.Dependency_practice">
+                <methods>
+                    <include name="stcr"/>
+                    <include name="prcr"/>
+                </methods>
+            </class>
+            <class name="Disable.Disable_practice_and_Ignore">
+                <methods>
+                    <include name="testone"/>
+                    <include name="testtwo"/>
+                    <include name="testthree"/>
+                    <include name="testfour"/>
+                    <include name="testfive"/>
+                </methods>
+            </class>
+            <class name="Listners.Test_class">
+                <methods>
+                    <include name="testone"/>
+                    <include name="testtwo"/>
+                    <include name="testfour"/>
+                </methods>
+            </class>
+            <class name="Parameters.parameter_practice">
+                <methods>
+                    <include name="setup"/>
+                    <include name="titleverify"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+            <class name="Parllel_Testing.parallel_testing1methods">
+                <methods>
+                    <include name="homepagetitleEDGE"/>
+                    <include name="homepagetitleFirefox"/>
+                    <include name="homepagetitleFIREFOX"/>
+                </methods>
+            </class>
+            <class name="Parllel_Testing.parallel_testing2class">
+                <methods>
+                    <include name="logintestEDGE"/>
+                    <include name="logintestFIREFOX"/>
+                </methods>
+            </class>
+            <class name="Priority.Priority_practice">
+                <methods>
+                    <include name="testone"/>
+                    <include name="testtwo"/>
+                    <include name="testthree"/>
+                    <include name="testfour"/>
+                </methods>
+            </class>
+            <class name="Testngpractice.Testclass1">
+                <methods>
+                    <include name="testhyrtutorials"/>
+                    <include name="testselenium"/>
+                </methods>
+            </class>
+            <class name="Testngpractice.Testclass2">
+                <methods>
+                    <include name="launch_browser"/>
+                    <include name="open_application"/>
+                    <include name="logindetails"/>
+                    <include name="closebrower"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
